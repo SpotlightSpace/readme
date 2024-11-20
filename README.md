@@ -53,6 +53,7 @@
 
 
 ---
+
 # 🚀 주요 기능
 
 ##  프로젝트 핵심 목표
@@ -101,20 +102,80 @@
 
 ###  **동시성 제어**
 - 결제 시스템의 동시성 제어를 위한 **Pessimistic Lock** 적용
-    - [관련 링크](https://bronb.tistory.com/entry/%EA%B2%B0%EC%A0%9C-%EC%8B%9C-%EC%9E%AC%EA%B3%A0%EC%97%90-%EB%8C%80%ED%95%9C-%EB%8F%99%EC%8B%9C%EC%84%B1-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0)
+    - [결제 시 재고에 대한 동시성 문제 해결](https://bronb.tistory.com/entry/%EA%B2%B0%EC%A0%9C-%EC%8B%9C-%EC%9E%AC%EA%B3%A0%EC%97%90-%EB%8C%80%ED%95%9C-%EB%8F%99%EC%8B%9C%EC%84%B1-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0)
 - 게시글 중복 등록 방지를 위한 **REDIS 기반 분산 락** 적용
-    - [관련 링크](https://kty0602.tistory.com/79)
+    - [동시성 제어(따닥 요청)](https://kty0602.tistory.com/79)
 
 ###  **결제 시스템**
 - 카카오 API 연동을 통한 아티스트 후원 및 공연 예약 시스템 구현
 
 ###  **ElasticSearch를 통한 이벤트 조회**
 - ElasticSearch를 활용하여 이벤트 조회 성능 최대 **94% 개선**
-    - [관련 링크](https://kty0602.tistory.com/78)
+    - [엘라스틱 서치](https://kty0602.tistory.com/78)
 
 ###  **스프링 배치를 활용한 정산 로직**
 - 스프링 배치를 활용한 정산 로직 최적화
     - [관련 링크](https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94)
+---
+
+# 디테일
+
+## 이런거까지 고민해봤다
+<details>
+<summary>primitive 타입과 wrapper 타입의 차이</summary>
+</details>
+
+<details>
+<summary>Optional 사용 이유</summary>
+</details>
+
+<details>
+<summary>final 키워드 사용 이유</summary>
+</details>
+
+<details>
+<summary>controller, service 서로 다른 dto를 사용해야하나</summary>
+</details>
+
+<details>
+<summary>@Transactional 어노테이션의 동작 원리</summary>
+</details>
+
+<details>
+<summary>캐싱써서 성능이 빨라지는게 좋은가 정합성을 지키는게 좋은가</summary>
+</details>
+
+<details>
+<summary>테스트 코드 작성시 어떤것을 테스트 해야하는가</summary>
+</details>
+
+## 기술적 의사결정
+<details>
+<summary>젠킨스 vs 깃헙액션</summary>
+</details>
+
+<details>
+<summary>블루그린 vs 카나리 vs 롤링배포</summary>
+</details>
+
+<details>
+<summary>모니터링</summary>
+</details>
+
+<details>
+<summary>이메일을 비동기로 선택한 이유</summary>
+</details>
+
+<details>
+<summary>스프링 배치</summary>
+</details>
+
+<details>
+<summary>실시간 알림 SSE</summary>
+</details>
+
+- 
+
 ---
 
 # 🗝️ KEY SUMMARY
@@ -237,7 +298,6 @@
   - 이메일 발송을 **비동기로 전환**하여 시스템 성능 최적화  
   - [관련 링크](https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94)  
 </details>
-
 
 ---
 
@@ -776,283 +836,5 @@
   </ul>
 </li>
 </ul>
-</details>
-
-
-
-
----
-<details> 
-<summary>그라운드 룰</summary>
----
-<details>
-  <summary style="font-size: 18px">📝 생각보다는 기록을</summary>
-  - 머릿속 기억은 언젠가 사라집니다. 기록을 생활화합시다!
-</details>
-
-<details>
-  <summary style="font-size: 18px">⏳ 가끔은 쉴 수도 있잖아?</summary>
-  - 점심 2시간, 저녁 1시간, 자율 휴식 30분
-</details>
-
-<details>
-  <summary style="font-size: 18px">💬 공과 사는 분리합시다!</summary>
-  - 잡담용 방과 트러블 슈팅용 방(Jira, 슬랙 등)을 만들어 대비합시다!
-</details>
-
-<details>
-  <summary style="font-size: 18px">😨 "어" 금지!</summary>
-  - 무서워요. 🙃
-</details>
-
-<details>
-  <summary style="font-size: 18px">👨‍🏫 튜터님을 잘 사용하자</summary>
-  - 30분 토론 후에도 결정되지 않는 사안은 튜터님과 매니저님을 부릅시다!
-</details>
-
-<details>
-  <summary style="font-size: 18px">❓ 세상에 바보 같은 질문은 없다</summary>
-  - 모르면 모른다고 말합시다!
-</details>
-
-<details>
-  <summary style="font-size: 18px">🤝 단독 행동 금지!</summary>
-  - 단독으로 머지하지 않고 코드리뷰를 생활화합시다!
-</details>
-
-<details>
-  <summary style="font-size: 18px">🛑 회의 룰은 절대적, 아마..?</summary>
-  - 회의를 통해 결정된 사안은 모두의 책임입니다!
-</details>
-
-<details>
-  <summary style="font-size: 18px">🔇 침묵은 의견이 아닙니다!</summary>
-  - 모른다면 "모른다", 좋으면 "좋다", 싫으면 "싫다"라고 얘기합시다.
-</details>
-
-<details>
-  <summary style="font-size: 18px">📢 튜터님이 이렇게 하래요!</summary>
-  - 근거를 가지고 이야기합시다. 수동적인 자세는 지양해주세요!
-</details>
-
-<details>
-  <summary style="font-size: 18px">🧹 정리정돈</summary>
-  - 커밋하기 전 `ctrl + alt + l`, `ctrl + alt + o`를 생활화합시다!
-</details>
-
-<details>
-  <summary style="font-size: 18px">🙏 예의를 지켜주세요</summary>
-  - 팀원에게 정색하거나 짜증내면 커피를 삽니다. 😅
-</details>
-
-<details>
-  <summary style="font-size: 18px">🕑 회의시간</summary>
-  - **10시**: 오늘 할 일과 트러블슈팅 논의  
-  - **20시**: 오늘 작업 마무리
-</details>
-
-<details>
-  <summary style="font-size: 18px">✨ 럭키비키잖앙?</summary>
-  - 무슨 일이 있어도 장원영 마인드셋으로!
-</details>
-
-<details>
-  <summary style="font-size: 18px">🙅 부장님은 작업할게, 나머지는 퇴근해!</summary>
-  - 야근 강요 금지!
-</details>
-</details>
-
-
-
----
-<details>
-<summary>고민 노트</summary>
-## (전체) 공통 고민
-<details>
-  <summary style="font-size: 18px">여러 아티스트가 동일한 시간대에 그룹을 맺어 예약하는게 좋은가</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">신청자 인원수가 가득 차면 대기자를 받을건지</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">쿠폰과 결제를 연결해야 하는가</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">기획</summary>
-  - 브레인 스토밍<br>
-  - 와이어프레임, ERD 교차 검사<br>
-  - API 작성<br>
-  - Base 코드 작성
-</details>
-
----
-
-## 조준호 고민 기록
-<details>
-  <summary style="font-size: 18px">로그아웃 관련</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">리프레시 토큰 관련</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">Jenkins vs GitHub Actions</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">회원 수정</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">버전 환경변수</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">이메일 인증 관련</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">비밀번호 변경 URL 관련</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">로그인 체크 AOP로? VS 프론트에서?</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">로그아웃 블랙리스트 관련</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">소셜 로그인 관련</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">CD 관련 기술적 의사결정</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">CD 수행 시 EC2에 올라가지 않는 이유</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">QueryDSL 관련 (정적 팩토리 메서드)</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">CD 관련</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">무중단 배포</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">Health Check 관련</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">왜 블루그린 배포?</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">GitHub Actions에 왜 ES가 올라가지 않는가?</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">배치를 공부하자 (버전 차이 문제)</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">ELK, Prometheus, Grafana 사용 이유</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">왜 배치인가?</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">Spring Batch 작업 실패 및 예외 처리</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">Spring Batch 작업 속도 개선</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">이메일 인증 비동기로 전환</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">악의적인 트래픽을 받지 않으려면?</summary>
-</details>
-
----
-
-## 강태영 고민 기록
-<details>
-  <summary style="font-size: 18px">이벤트 생성</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">이벤트 생성 제외 로직 구현</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">이미지 업로드 기능 구현</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">이미지 수정, 삭제 기능 구현</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">소프트 딜리트 검증 재확인</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">이벤트 조회 및 상세 조회 구현</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">포인트 생성, 조회, 내역 조회 기능 설계</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">API 명세서 추가</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">포인트 테스트 코드 작성</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">이벤트 테스트 코드 작성</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">첨부파일 테스트 코드 작성 및 트러블슈팅</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">ElasticSearch 도입 및 처리 결과</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">Nori 플러그인 도입</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">JMeter 부하 테스트</summary>
-</details>
-
----
-
-## 김동규 고민 기록
-<details>
-  <summary style="font-size: 18px">확장성 있는 코드 구조 설계</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">테스트하기 어려운 코드 테스트 방법</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">Transactional 어노테이션의 올바른 사용법</summary>
-</details>
-
----
-
-## 박한진 고민 기록
-<details>
-  <summary style="font-size: 18px">리뷰 조회 및 리턴 방식 설계</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">테스트 코드 관련 고민</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">도커 빌드 실패</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">리뷰 선착순 이벤트: 락 적용 방식</summary>
-</details>
-
----
-
-## 최원 고민 기록
-<details>
-  <summary style="font-size: 18px">쿼리 DSL 및 조회 코드 설계</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">Admin 도메인 구조 설계</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">쿠폰 CRUD 및 관련 유효성 검사</summary>
-</details>
-<details>
-  <summary style="font-size: 18px">무슨 락을 적용할 것인가?</summary>
-</details>
 </details>
 
