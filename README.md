@@ -251,8 +251,10 @@
 
 ## 강태영
 <details>
-  <summary style="font-size: 18px">✅ 올바른 단위 테스트 작성</summary>
-  - [Spy 어노테이션**을 사용하여 단일 책임을 갖는 단위 테스트 작성](https://kty0602.tistory.com/80)  
+  <summary>✅ 올바른 단위 테스트 작성</summary>
+  <p>
+    - <a href="https://kty0602.tistory.com/80" target="_blank">Spy 어노테이션을 사용하여 단일 책임을 갖는 단위 테스트 작성</a>
+  </p>
 </details>
 
 <details>
