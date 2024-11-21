@@ -174,6 +174,9 @@
 
 <details>
 <summary>캐싱써서 성능이 빨라지는게 좋은가 정합성을 지키는게 좋은가</summary>
+&nbsp;&nbsp;&nbsp;&nbsp;우리 프로젝트 주요 목적은 잘 알려지지 않은 아티스트들을 홍보할 수 있는 기회를 마련해주는 것</br>
+&nbsp;&nbsp;&nbsp;&nbsp;그러기 위해서는 사용자들에게 정확한 내용을 전달해야 함</br>
+&nbsp;&nbsp;&nbsp;&nbsp;따라서 신뢰할 수 있는 데이터를 제공한다는 점에서 정합성이 성능보다 더 중요하다고 생각함</br>
 </details>
 
 <details>
