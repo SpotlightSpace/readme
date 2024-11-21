@@ -87,7 +87,7 @@
 - 서버 상태 및 트래픽 확인을 통해 안정성 보장
 
 ---
-# 프로젝트 주요 기능
+# ⭐ 프로젝트 주요 기능
 
 ### 상세 내용
 
@@ -121,7 +121,7 @@
 
 # 디테일
 
-## 이런거까지 고민해봤다
+## 🔍 우리 팀의 고려 사항
 <details>
 <summary>primitive 타입과 wrapper 타입의 차이</summary>
 </details>
@@ -150,7 +150,7 @@
 <summary>테스트 코드 작성시 어떤것을 테스트 해야하는가</summary>
 </details>
 
-## 기술적 의사결정
+## ✔️ 기술적 의사결정
 <details>
   <summary>젠킨스 vs 깃헙액션</summary>
   
@@ -615,7 +615,7 @@
 
 ---
 
-# 기능 및 설명
+# ✍️ 기능 및 설명
 
 <details>
 <summary>회원 - 조준호</summary>
@@ -763,7 +763,7 @@
 
 ---
 
-# 사용 기술
+# ✍️ 사용 기술
 <details>
 <summary>REDIS</summary>
 <ul>
