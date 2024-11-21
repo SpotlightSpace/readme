@@ -252,7 +252,7 @@
 ## 강태영
 <details>
   <summary style="font-size: 18px">✅ 올바른 단위 테스트 작성</summary>
-  <p target="_blank" style="text-decoration: none;">
+  <p>
     - <a href="https://kty0602.tistory.com/80">Spy 어노테이션을 사용하여 단일 책임을 갖는 단위 테스트 작성</a>
   </p>
 </details>
@@ -269,14 +269,16 @@
 ## 김동규
 <details>
   <summary style="font-size: 18px">🌐 다중 서버 환경에서의 세션 관리</summary>
-  - 다중 서버 환경에서 발생하는 세션 불일치 문제를 **Session Storage**로 해결  
-  - [관련 링크](https://bronb.tistory.com/entry/%EB%8B%A4%EC%A4%91-%EC%84%9C%EB%B2%84-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98-%EC%84%B8%EC%85%98-%EA%B4%80%EB%A6%AC)  
+  <p>
+    - <a href="https://bronb.tistory.com/entry/%EB%8B%A4%EC%A4%91-%EC%84%9C%EB%B2%84-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98-%EC%84%B8%EC%85%98-%EA%B4%80%EB%A6%AC">다중 서버 환경에서 발생하는 세션 불일치 문제를 **Session Storage**로 해결</a>
+  </p>
 </details>
 
 <details>
   <summary style="font-size: 18px">🔄 Transactional 얼마나 알고 사용하시나요?</summary>
-  - 멀티 쓰레드 문제 해결 및 트랜잭션의 올바른 사용 방법 고찰  
-  - [관련 링크](https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94)  
+  <p>
+    - <a href="https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94">멀티 쓰레드 문제 해결 및 트랜잭션의 올바른 사용 방법 고찰</a>
+  </p>
 </details>
 
 ---
@@ -284,20 +286,23 @@
 ## 조준호
 <details>
   <summary style="font-size: 18px">🩺 ELB 헬스체크 문제</summary>
-  - **무중단 배포**를 위해 ELB 헬스체크 문제를 해결  
-  - [관련 링크](https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94)  
+  <p>
+    - <a href="https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94">무중단 배포를 위해 ELB 헬스체크 문제를 해결</a>
+  </p>
 </details>
 
 <details>
   <summary style="font-size: 18px">🛡️ 악의적인 트래픽을 받지 않으려면</summary>
-  - 모든 포트 허용으로 인한 **악의적인 트래픽 차단**을 위한 다양한 방법 도입  
-  - [관련 링크](https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94)  
+  <p>
+    - <a href="https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94">모든 포트 허용으로 인한 악의적인 트래픽 차단을 위한 다양한 방법 도입</a>
+  </p>
 </details>
 
 <details>
   <summary style="font-size: 18px">📧 이메일 발송 비동기로 전환하기</summary>
-  - 이메일 발송을 **비동기로 전환**하여 시스템 성능 최적화  
-  - [관련 링크](https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94)  
+  <p>
+    - <a href="https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94">이메일 발송을 비동기로 전환하여 시스템 성능 최적화</a>
+  </p>
 </details>
 
 ---
