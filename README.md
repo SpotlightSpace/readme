@@ -644,27 +644,27 @@
 
 ## 강태영
 
-### ✅ 올바른 단위 테스트 작성  : <a href="https://kty0602.tistory.com/80" style="color: black; text-decoration: none; ">🔗 Spy 어노테이션을 사용하여 단일 책임을 갖는 단위 테스트 작성</a>
+#### ✅ 올바른 단위 테스트 작성  : <a href="https://kty0602.tistory.com/80" style="color: black; text-decoration: none; ">🔗 Spy 어노테이션을 사용하여 단일 책임을 갖는 단위 테스트 작성</a>
 
-### 📉 인덱스 도입으로 인한 쓰기 성능 저하 문제 해결 : <a href="https://kty0602.tistory.com/81 " style="color: black; text-decoration: none; ">🔗 인덱스 도입 후 10배 증가한 쓰기 성능 문제를 ElasticSearch 도입으로 개선</a>
+#### 📉 인덱스 도입으로 인한 쓰기 성능 저하 문제 해결 : <a href="https://kty0602.tistory.com/81 " style="color: black; text-decoration: none; ">🔗 인덱스 도입 후 10배 증가한 쓰기 성능 문제를 ElasticSearch 도입으로 개선</a>
 
 ---
 
 ## 김동규
 
-### 🌐 다중 서버 환경에서의 세션 관리 : <a href="https://bronb.tistory.com/entry/%EB%8B%A4%EC%A4%91-%EC%84%9C%EB%B2%84-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98-%EC%84%B8%EC%85%98-%EA%B4%80%EB%A6%AC"  style="color: black; text-decoration: none; "> 🔗 다중 서버 환경에서 발생하는 세션 불일치 문제를 Session Storage로 해결</a>
+#### 🌐 다중 서버 환경에서의 세션 관리 : <a href="https://bronb.tistory.com/entry/%EB%8B%A4%EC%A4%91-%EC%84%9C%EB%B2%84-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98-%EC%84%B8%EC%85%98-%EA%B4%80%EB%A6%AC"  style="color: black; text-decoration: none; "> 🔗 다중 서버 환경에서 발생하는 세션 불일치 문제를 Session Storage로 해결</a>
 
-### 🔄 Transactional 얼마나 알고 사용하시나요? : <a href="https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94" style="color: black; text-decoration: none; "> 🔗 멀티 쓰레드 문제 해결 및 트랜잭션의 올바른 사용 방법 고찰</a>
+#### 🔄 Transactional 얼마나 알고 사용하시나요? : <a href="https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94" style="color: black; text-decoration: none; "> 🔗 멀티 쓰레드 문제 해결 및 트랜잭션의 올바른 사용 방법 고찰</a>
 
 ---
 
 ## 조준호
 
-### 🩺 ELB 헬스체크 문제 : <a href="https://juno0432.tistory.com/entry/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85-ELB-%ED%97%AC%EC%8A%A4%EC%B2%B4%ED%81%AC-%EB%AC%B8%EC%A0%9C" style="color: black; text-decoration: none; "> 🔗 무중단 배포를 위해 ELB 헬스체크 문제를 해결</a>
+#### 🩺 ELB 헬스체크 문제 : <a href="https://juno0432.tistory.com/entry/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85-ELB-%ED%97%AC%EC%8A%A4%EC%B2%B4%ED%81%AC-%EB%AC%B8%EC%A0%9C" style="color: black; text-decoration: none; "> 🔗 무중단 배포를 위해 ELB 헬스체크 문제를 해결</a>
 
-### 🛡️ 악의적인 트래픽을 받지 않으려면 : <a href="https://juno0432.tistory.com/entry/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85-aws-waf%EB%A1%9C-%EC%99%B8%EB%B6%80-%EC%A0%91%EA%B7%BC-%EC%B0%A8%EB%8B%A8%ED%95%98%EA%B8%B0" style="color: black; text-decoration: none; "> 🔗 모든 포트 허용으로 인한 악의적인 트래픽 차단을 위한 다양한 방법 도입</a>
+#### 🛡️ 악의적인 트래픽을 받지 않으려면 : <a href="https://juno0432.tistory.com/entry/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85-aws-waf%EB%A1%9C-%EC%99%B8%EB%B6%80-%EC%A0%91%EA%B7%BC-%EC%B0%A8%EB%8B%A8%ED%95%98%EA%B8%B0" style="color: black; text-decoration: none; "> 🔗 모든 포트 허용으로 인한 악의적인 트래픽 차단을 위한 다양한 방법 도입</a>
 
-### 📧 이메일 발송 비동기로 전환하기 : <a href="https://juno0432.tistory.com/entry/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85-%EC%9D%B4%EB%A9%94%EC%9D%BC-%EB%B0%9C%EC%86%A1%EC%9D%84-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%A0%84%ED%99%98%ED%95%9C-%EC%9D%B4%EC%9C%A0" style="color: black; text-decoration: none; "> 🔗 이메일 발송을 비동기로 전환하여 시스템 성능 최적화</a>
+#### 📧 이메일 발송 비동기로 전환하기 : <a href="https://juno0432.tistory.com/entry/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85-%EC%9D%B4%EB%A9%94%EC%9D%BC-%EB%B0%9C%EC%86%A1%EC%9D%84-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%A0%84%ED%99%98%ED%95%9C-%EC%9D%B4%EC%9C%A0" style="color: black; text-decoration: none; "> 🔗 이메일 발송을 비동기로 전환하여 시스템 성능 최적화</a>
 
 ---
 
