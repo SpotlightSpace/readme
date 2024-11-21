@@ -39,8 +39,38 @@
   아티스트들이 팬들과 소통하고, 이벤트를 통해 수익을 창출하도록 지원합니다.
 -  **해결책**:  
   간단한 예약 시스템, 실시간 알림, 성능 최적화된 검색 기능을 제공합니다.
+- **기술 스택**:
 
----
+### 사용한 기술 스택
+
+#### Frameworks & Libraries
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring%20Framework-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)
+![Spring Batch](https://img.shields.io/badge/Spring%20Batch-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Retry](https://img.shields.io/badge/Spring%20Retry-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Lombok](https://img.shields.io/badge/Lombok-FF2C2C?style=for-the-badge&logo=lombok&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Bcrypt](https://img.shields.io/badge/Bcrypt-00D09C?style=for-the-badge)
+![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
+![Spring Security Test](https://img.shields.io/badge/Spring%20Security%20Test-6DB33F?style=for-the-badge)
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![H2](https://img.shields.io/badge/H2-0052CC?style=for-the-badge)
+![QueryDSL](https://img.shields.io/badge/QueryDSL-6DB33F?style=for-the-badge)
+![AWS S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Logstash](https://img.shields.io/badge/Logstash-F2E21B?style=for-the-badge&logo=elastic&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
 
 ## 🌟 프로젝트 배경
 
@@ -115,7 +145,7 @@
 
 ###  **스프링 배치를 활용한 정산 로직**
 - 스프링 배치를 활용한 정산 로직 최적화
-    - [관련 링크](https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94)
+    - [스프링 배치를 활용한 정산 로직 최적화](https://juno0432.tistory.com/entry/%EA%B8%B0%EC%88%A0-%EA%B5%AC%ED%98%84%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B0%B0%EC%B9%98%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%A0%95%EC%82%B0-%EB%A1%9C%EC%A7%81-%EC%B5%9C%EC%A0%81%ED%99%94)
 ---
 
 # 디테일
@@ -152,12 +182,79 @@
 ## ✔️ 기술적 의사결정
 <details>
   <summary>젠킨스 vs 깃헙액션</summary>
-  
+
+### 배경 
+- CI / CD 도구인 GitHubActions와 Jenkins 중 어느 것을 사용할지 고민함
+
+### 요구사항
+- 인적 리소스를 줄이기 위해 자동화된 테스트 툴 및 통합 툴이 필요했음.
+- 빠른 배포 및 테스트가 필요했음.
+
+### 선택지
+
+#### 1. **Jenkins**
+- **장점**
+  - 다양한 플러그인 지원으로 다양한 환경에서 사용 가능
+  - 복잡한 파이프라인을 구성할 수 있음
+  - 대형 프로젝트에 유용함
+
+- **단점**
+  - 별도의 서버 설치가 필요하며 설치 및 유지보수에 대한 리소스가 요구됨
+  - 복잡한 파이프라인 구성으로 인한 학습 곡선이 높음
+
+#### 2. **GitHub Actions**
+- **장점**
+  - 간단한 설정만으로 ci/cd 파이프라인을 빠르게 구축할 수 있음
+  - 다양한 언어와 무료 서버의 제공으로 별도의 서버 구축이 필요 없음
+
+- **단점**
+    - Jenkins에 비해 참고 자료가 미비함
+    - 대형 프로젝트에는 적합하지 않음
+
+## 의사결정 / 사유
+- **Github Actions**를 사용하기로 결정하였습니다.
+- **이유**:
+  - 현재 프로젝트에서 확장성을 고려하여도 github actions에서 제공하는 ci/cd작업으로도 충분히 요구사항을 만족하기 때문.
+
+jenkins가 제공하는 높은 확장성과 유연성도 장점이지만, 현재 프로젝트의 요구사항과 서버 관리 비용의 절감이 더 큰 이점으로 작용했습니다.
 </details>
 
 <details>
   <summary>블루그린 vs 카나리 vs 롤링배포</summary>
-  
+  ### 배경 
+- CI / CD 도구인 GitHubActions와 Jenkins 중 어느 것을 사용할지 고민함
+
+### 요구사항
+- 인적 리소스를 줄이기 위해 자동화된 테스트 툴 및 통합 툴이 필요했음.
+- 빠른 배포 및 테스트가 필요했음.
+
+### 선택지
+
+#### 1. **Jenkins**
+- **장점**
+    - 다양한 플러그인 지원으로 다양한 환경에서 사용 가능
+    - 복잡한 파이프라인을 구성할 수 있음
+    - 대형 프로젝트에 유용함
+
+- **단점**
+    - 별도의 서버 설치가 필요하며 설치 및 유지보수에 대한 리소스가 요구됨
+    - 복잡한 파이프라인 구성으로 인한 학습 곡선이 높음
+
+#### 2. **GitHub Actions**
+- **장점**
+    - 간단한 설정만으로 ci/cd 파이프라인을 빠르게 구축할 수 있음
+    - 다양한 언어와 무료 서버의 제공으로 별도의 서버 구축이 필요 없음
+
+- **단점**
+    - Jenkins에 비해 참고 자료가 미비함
+    - 대형 프로젝트에는 적합하지 않음
+
+## 의사결정 / 사유
+- **Github Actions**를 사용하기로 결정하였습니다.
+- **이유**:
+    - 현재 프로젝트에서 확장성을 고려하여도 github actions에서 제공하는 ci/cd작업으로도 충분히 요구사항을 만족하기 때문.
+
+jenkins가 제공하는 높은 확장성과 유연성도 장점이지만, 현재 프로젝트의 요구사항과 서버 관리 비용의 절감이 더 큰 이점으로 작용했습니다.
 </details>
 
 <details>
@@ -490,21 +587,21 @@
 <details>
   <summary style="font-size: 18px">🩺 ELB 헬스체크 문제</summary>
   <p>
-    - <a href="https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94">무중단 배포를 위해 ELB 헬스체크 문제를 해결</a>
+    - <a href="https://juno0432.tistory.com/entry/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85-ELB-%ED%97%AC%EC%8A%A4%EC%B2%B4%ED%81%AC-%EB%AC%B8%EC%A0%9C">무중단 배포를 위해 ELB 헬스체크 문제를 해결</a>
   </p>
 </details>
 
 <details>
   <summary style="font-size: 18px">🛡️ 악의적인 트래픽을 받지 않으려면</summary>
   <p>
-    - <a href="https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94">모든 포트 허용으로 인한 악의적인 트래픽 차단을 위한 다양한 방법 도입</a>
+    - <a href="https://juno0432.tistory.com/entry/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85-aws-waf%EB%A1%9C-%EC%99%B8%EB%B6%80-%EC%A0%91%EA%B7%BC-%EC%B0%A8%EB%8B%A8%ED%95%98%EA%B8%B0">모든 포트 허용으로 인한 악의적인 트래픽 차단을 위한 다양한 방법 도입</a>
   </p>
 </details>
 
 <details>
   <summary style="font-size: 18px">📧 이메일 발송 비동기로 전환하기</summary>
   <p>
-    - <a href="https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94">이메일 발송을 비동기로 전환하여 시스템 성능 최적화</a>
+    - <a href="https://juno0432.tistory.com/entry/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85-%EC%9D%B4%EB%A9%94%EC%9D%BC-%EB%B0%9C%EC%86%A1%EC%9D%84-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%A0%84%ED%99%98%ED%95%9C-%EC%9D%B4%EC%9C%A0">이메일 발송을 비동기로 전환하여 시스템 성능 최적화</a>
   </p>
 </details>
 
