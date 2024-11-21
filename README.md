@@ -270,7 +270,7 @@
 <details>
   <summary style="font-size: 18px">🌐 다중 서버 환경에서의 세션 관리</summary>
   <p>
-    - <a href="https://bronb.tistory.com/entry/%EB%8B%A4%EC%A4%91-%EC%84%9C%EB%B2%84-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98-%EC%84%B8%EC%85%98-%EA%B4%80%EB%A6%AC">다중 서버 환경에서 발생하는 세션 불일치 문제를 **Session Storage**로 해결</a>
+    - <a href="https://bronb.tistory.com/entry/%EB%8B%A4%EC%A4%91-%EC%84%9C%EB%B2%84-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98-%EC%84%B8%EC%85%98-%EA%B4%80%EB%A6%AC">다중 서버 환경에서 발생하는 세션 불일치 문제를 Session Storage로 해결</a>
   </p>
 </details>
 
