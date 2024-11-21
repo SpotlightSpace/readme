@@ -217,7 +217,7 @@
 ## ✔️ 기술적 의사결정
 
 <details>
-  <summary>Jenkins vs Github Actions</summary>
+  <summary><strong>Jenkins vs Github Actions</strong></summary>
 
 ### 배경
 
@@ -262,7 +262,7 @@
 </details>
 
 <details>
-  <summary>블루그린 vs 카나리 vs 롤링배포</summary>
+  <summary><strong>블루그린 vs 카나리 vs 롤링배포</strong></summary>
 
 ### 배경
 
@@ -294,7 +294,7 @@
 </details>
 
 <details>
-  <summary>모니터링</summary>
+  <summary><strong>모니터링</strong></summary>
 
 ### 배경
 
@@ -325,7 +325,7 @@
 </details>
 
 <details>
-  <summary>실시간 알림 SSE</summary>
+  <summary><strong>실시간 알림 SSE</strong></summary>
 
 ### 배경
 
@@ -352,7 +352,7 @@
 </details>
 
 <details>
-  <summary>인덱스</summary>
+  <summary><strong>인덱스</strong></summary>
 
 ### 배경
 
@@ -377,7 +377,7 @@
 </details>
 
 <details>
-  <summary>엘라스틱 서치</summary>
+  <summary><strong>엘라스틱 서치</strong></summary>
 
 ### 배경
 
@@ -401,7 +401,7 @@
 </details>
 
 <details>
-  <summary>연속 요청에 대한 동시성 제어</summary>
+  <summary><strong>연속 요청에 대한 동시성 제어</strong></summary>
 
 ### 배경
 
@@ -438,7 +438,7 @@
 </details>
 
 <details>
-  <summary>결제 시 동시성 제어</summary>
+  <summary><strong>결제 시 동시성 제어</strong></summary>
 
 ### 요구사항
 
@@ -476,7 +476,7 @@
 </details>
 
 <details>
-  <summary>분산 서버 환경에서의 세션 관리</summary>
+  <summary><strong>분산 서버 환경에서의 세션 관리</strong></summary>
 
 ### 배경
 
@@ -519,7 +519,7 @@
 
 
 <details>
-  <summary>쿠폰 발급 시스템 동시성 제어</summary>
+  <summary><strong>쿠폰 발급 시스템 동시성 제어</strong></summary>
 
 ### 배경
 
