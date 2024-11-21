@@ -1,7 +1,7 @@
 # 프로젝트명
 소극장 (Spotlight Space)
 
-![img_8.png](img_8.png)
+<img src="img_8.png" width="800" height="500" />
 
 ---
 
