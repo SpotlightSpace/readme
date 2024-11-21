@@ -251,15 +251,17 @@
 
 ## 강태영
 <details>
-  <summary>✅ 올바른 단위 테스트 작성</summary>
+  <summary style="font-size: 18px">✅ 올바른 단위 테스트 작성</summary>
   <p>
-    - <a href="https://kty0602.tistory.com/80" target="_blank">Spy 어노테이션을 사용하여 단일 책임을 갖는 단위 테스트 작성</a>
+    - <a href="https://kty0602.tistory.com/80" target="_blank" style="text-decoration: none;">Spy 어노테이션을 사용하여 단일 책임을 갖는 단위 테스트 작성</a>
   </p>
 </details>
 
 <details>
   <summary style="font-size: 18px">📉 인덱스 도입으로 인한 쓰기 성능 저하 문제 해결</summary>
-  - [인덱스 도입 후 10배 증가한 쓰기 성능 문제를 ElasticSearch 도입으로 개선](https://kty0602.tistory.com/81)     
+  <p>
+    - <a href="https://kty0602.tistory.com/81" target="_blank" style="text-decoration: none;">인덱스 도입 후 10배 증가한 쓰기 성능 문제를 ElasticSearch 도입으로 개선</a>
+  </p>   
 </details>
 
 ---
@@ -297,18 +299,14 @@
   - 이메일 발송을 **비동기로 전환**하여 시스템 성능 최적화  
   - [관련 링크](https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94)  
 </details>
-<div align="right">
-[목차로](#목차)
-</div>
+
 ---
 
 # 🏗️ 인프라 및 아키텍처
 
 ##  인프라 구조
 ![인프라 구조도](img_1.png)
-<div align="right">
-[목차로](#목차)
-</div>
+
 ---
 
 ###  주요 구성 요소
@@ -399,7 +397,6 @@
 
 - **Documentation**
     - Swagger 2.6.0
-
 
 ---
 
