@@ -252,15 +252,15 @@
 ## 강태영
 <details>
   <summary style="font-size: 18px">✅ 올바른 단위 테스트 작성</summary>
-  <p>
-    - <a href="https://kty0602.tistory.com/80" target="_blank">Spy 어노테이션을 사용하여 단일 책임을 갖는 단위 테스트 작성</a>
+  <p target="_blank" style="text-decoration: none;">
+    - <a href="https://kty0602.tistory.com/80">Spy 어노테이션을 사용하여 단일 책임을 갖는 단위 테스트 작성</a>
   </p>
 </details>
 
 <details>
   <summary style="font-size: 18px">📉 인덱스 도입으로 인한 쓰기 성능 저하 문제 해결</summary>
   <p>
-    - <a href="https://kty0602.tistory.com/81" target="_blank" style="text-decoration: none;">인덱스 도입 후 10배 증가한 쓰기 성능 문제를 ElasticSearch 도입으로 개선</a>
+    - <a href="https://kty0602.tistory.com/81">인덱스 도입 후 10배 증가한 쓰기 성능 문제를 ElasticSearch 도입으로 개선</a>
   </p>   
 </details>
 
