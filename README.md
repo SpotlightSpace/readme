@@ -150,23 +150,26 @@
 
 ## 🔍 우리 팀의 고려 사항
 <details>
-<summary>primitive 타입과 wrapper 타입의 차이</summary>
+<summary>primitive 타입과 reference 타입</summary>
+primitive 타입과 reference 타입의 큰 차이 중 하나는 null 값 저장 가능 여부임</br>
+따라서 null 값이 저장될 수 있는 경우는 reference 타입을 사용하였고,</br>
+그렇지 않은 경우는 primitive 타입을 사용하여 명확성을 높이고 불확실성을 줄임  
 </details>
 
 <details>
-<summary>Optional 사용 이유</summary>
+<summary>final 키워드</summary>
+final 키워드가 변수에 사용되면 초기화 후 값을 변경할 수 없음을 의미함</br>
+따라서 한번 초기화 후 값이 변경되면 안되는 경우(파라미터)에 final 키워드를 사용하여
+불변성을 보장하고 코드의 안정성과 신뢰성을 높임
+하지만 fianl 키워드가 완벽한 불변성을 보장하지는 않으며 참조하고 있는 객체의 상태는 변경 가능함에 유의
 </details>
 
 <details>
-<summary>final 키워드 사용 이유</summary>
-</details>
-
-<details>
-<summary>controller, service 서로 다른 dto를 사용해야하나</summary>
-</details>
-
-<details>
-<summary>@Transactional 어노테이션의 동작 원리</summary>
+<summary>레이어드 아키텍처에서 각 레이어별 dto 분리</summary>
+레이어드 아키텍처에서 중요한 부분은 각 레이어의 의존 방향은 단방향이어야 한다는 점임
+Controller Layer Dto(Request/Response Dto)를 Service Layer에서 그대로 사용하게 된다면
+Service Layer에서 Controller Layer에 대한 의존이 생기게 됨
+이러한 구조를 가져가게 되면 복잡도가 증가되며 레이어 간의 경계가 흐려짐
 </details>
 
 <details>
