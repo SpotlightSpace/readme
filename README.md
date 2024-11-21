@@ -167,7 +167,7 @@
 <details>
 <summary>Controller Layer - Service Layer dto 분리</summary>
 &nbsp;&nbsp;&nbsp;&nbsp;레이어드 아키텍처에서 중요한 부분은 각 레이어의 의존 방향은 단방향이어야 한다는 점임</br>
-&nbsp;&nbsp;&nbsp;&nbsp;Controller Layer Dto(Request/Response Dto)를 Service Layer에서 그대로 사용하게 된다면</br>
+&nbsp;&nbsp;&nbsp;&nbsp;Controller Layer Dto(Request Dto)를 Service Layer에서 그대로 사용하게 된다면</br>
 &nbsp;&nbsp;&nbsp;&nbsp;Service Layer에서 Controller Layer에 대한 의존이 생기게 됨</br>
 &nbsp;&nbsp;&nbsp;&nbsp;이러한 구조를 가져가게 되면 복잡도가 증가되며 레이어 간의 경계가 흐려짐
 </details>
