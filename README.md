@@ -178,6 +178,8 @@
 
 <details>
 <summary>테스트 코드 작성시 어떤것을 테스트 해야하는가</summary>
+&nbsp;&nbsp;&nbsp;&nbsp;기본적으로 각 기능이 요구사항에 맞게 정상적으로 동작하는지 검증해야 함</br>
+&nbsp;&nbsp;&nbsp;&nbsp;또한 예상치 못한 상황에서 적절한 예외 처리 및 메시지 검증이 이뤄지는지 확인해야 함</br>
 </details>
 
 ## ✔️ 기술적 의사결정
