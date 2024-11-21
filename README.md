@@ -76,7 +76,6 @@
     - GITHUB ACTIONS, DOCKER, AWS 활용
 - **보안 강화**:
     - AWS WAF 기능으로 비정상적인 접근 및 해외 트래픽 차단
-    - 참고 링크: [Transactional에 대해 알아보기](https://bronb.tistory.com/entry/Transactional-%EC%96%BC%EB%A7%88%EB%82%98-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94)
 
 #### 📊 모니터링 시스템 구축
 - **실시간 매트릭 모니터링**:
