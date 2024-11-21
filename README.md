@@ -161,7 +161,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;final 키워드가 변수에 사용되면 초기화 후 값을 변경할 수 없음을 의미함</br>
 &nbsp;&nbsp;&nbsp;&nbsp;따라서 한번 초기화 후 값이 변경되면 안되는 경우(파라미터)에 final 키워드를 사용하여</br>
 &nbsp;&nbsp;&nbsp;&nbsp;불변성을 보장하고 코드의 안정성과 신뢰성을 높임</br>
-&nbsp;&nbsp;&nbsp;&nbsp;하지만 fianl 키워드가 완벽한 불변성을 보장하지는 않으며 참조하고 있는 객체의 상태는 변경 가능함에 유의
+&nbsp;&nbsp;&nbsp;&nbsp;하지만 fianl 키워드가 불변성을 완벽하게 보장하지는 않으며 참조하고 있는 객체의 상태는 변경 가능함에 유의
 </details>
 
 <details>
