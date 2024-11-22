@@ -2,7 +2,7 @@
 
 소극장 (Spotlight Space)
 
-<img src="img_8.png" width="850" height="400" />
+<img src="readme/소극장_이미지.png" width="850" height="400" />
 
 ---
 
@@ -42,7 +42,6 @@
   아티스트들이 팬들과 소통하고, 이벤트를 통해 수익을 창출하도록 지원합니다.
 - **해결책**:  
   간단한 예약 시스템, 실시간 알림, 성능 최적화된 검색 기능을 제공합니다.
-- **기술 스택**:
 
 ### 사용한 기술 스택
 
@@ -56,7 +55,6 @@
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![Bcrypt](https://img.shields.io/badge/Bcrypt-00D09C?style=for-the-badge)
 ![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
-![Spring Security Test](https://img.shields.io/badge/Spring%20Security%20Test-6DB33F?style=for-the-badge)
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![H2](https://img.shields.io/badge/H2-0052CC?style=for-the-badge)
@@ -94,7 +92,7 @@
 
 ### **테스트 코드 커버리지 유지**
 
-- 테스트 코드 커버리지 **70%** 이상 유지
+- 테스트 코드 커버리지 **70%** 이상 달성
 
 ### ⚡ **성능 최적화**
 
@@ -589,16 +587,16 @@
 - **JPA Item Reader** 도입으로 기존 Repository Item Reader 대비 성능을 **96% 개선**
 - N+1 문제를 해결하고, 개별 Insert를 Bulk Insert로 전환하여 **DB 로직 최적화**
 - 개선 전: **Repository Item Reader** 사용 시 과도한 쿼리 호출  
-  ![기존 시스템 성능](img_3.png)
+  ![기존 시스템 성능](readme/배치_기존_시스템_성능.png)
 - 개선 후: **JPA Item Reader** 사용으로 쿼리 호출 최적화  
-  ![개선된 시스템 성능](img_4.png)
+  ![개선된 시스템 성능](readme/배치_개선된_시스템_성능.png)
 
 ---
 
 ### 📈 개선 성능 차트
 
 - 아래 차트는 개선 전후의 처리 시간을 비교한 결과를 시각화한 것입니다:  
-  ![img_5.png](img_5.png)
+  ![img_5.png](readme/배치_개선된_성능_차트.png)
 
 ---
 
@@ -624,10 +622,10 @@
 ### 개선 과정 및 결과
 
 - **인덱싱 전후 성능 차이**  
-  ![기존 인덱싱 성능](img.png)
+  ![기존 인덱싱 성능](readme/인덱싱_성능_전후_차이.png)
 
 - **개선 후 결과**  
-  ![개선된 성능](img_6.png)
+  ![개선된 성능](readme/인덱싱_개선_후_결과.png)
 
 - ElasticSearch를 통해 조회 성능을 **88% 개선**
 
@@ -672,7 +670,7 @@
 
 ## 인프라 구조
 
-![인프라 구조도](img_1.png)
+![인프라 구조도](readme/인프라_구조도.png)
 
 ---
 
@@ -701,7 +699,7 @@
 
 ## ERD
 
-![img_2.png](img_2.png)
+![img_2.png](readme/ERD.png)
 
 ---
 
